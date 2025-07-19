@@ -1,0 +1,680 @@
+@media only screen and (min-width:1201px){
+    #pope{
+        width: 100%;
+        height: 50rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 50%;
+            height: 8rem;
+            display: inline-block;
+            align-items: center;
+            margin: 8rem 0 5rem 2rem;
+
+            h1{
+                font-size: 2.5rem;
+                margin: 0 0 2rem 0;
+                color: black;
+            }
+
+            h3{
+                font-weight: 380;
+                font-size: 1.25rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: black;
+            }
+
+        }
+
+
+        #mainContainer{
+            width: 96%;
+            height: 26rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .classDiv{
+                width: 49%;
+                height: 23rem;
+
+                .kid{
+                    width: 100%;
+                    height: 4.5rem;
+                    border-bottom: 0.1rem solid rgba(170, 170, 170, 0.342);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+                    .p{
+                        width: 92%;
+                        height: 4rem;
+
+
+                        .cov{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+
+                            p{
+                                color: black;
+                                font-size: 0.8rem;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+                            }
+        
+                            span{
+                                color: #5b5a5a;
+                            }
+                        }
+                    }
+
+
+                    .gtcover{
+                        width: 7%;
+                        height: 4rem;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        overflow: hidden;
+
+                
+                    .gt{
+                        width: 63%;
+                        height: 1.6rem;
+                        background: rgb(33, 33, 33);
+                        border-radius: 50%;
+                        color: white;
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                    }
+
+                }
+
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    #pope{
+        width: 100%;
+        height: 60rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 50%;
+            height: 8rem;
+            display: inline-block;
+            align-items: center;
+            margin: 8rem 0 5rem 2rem;
+
+            h1{
+                font-size: 2.4rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                margin: 0 0 2rem 0;
+                color: black;
+                font-weight: 650;
+            }
+
+            h3{
+                font-weight: 400;
+                font-size: 1.3rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: black;
+            }
+        }
+
+
+        #mainContainer{
+            width: 94.5%;
+            height: 34rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .classDiv{
+                width: 49%;
+                height: 30rem;
+
+                .kid{
+                    width: 100%;
+                    height: 6rem;
+                    border-bottom: 0.1rem solid rgba(25, 25, 25, 0.342);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .p{
+                        width: 90%;
+                        height: 4rem;
+                    
+                        .cov{
+                            width: 100%;
+                            height: 4rem;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                        
+
+                    p{
+                        color: black;
+                        font-size: 1rem;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                    }
+
+                    span{
+                        color: #6c6c6c;
+                    }
+
+                }
+            }
+
+                .gtcover{
+                    width: 10%;
+                    height: 4rem;
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                
+                    .gt{
+                        width: 58%;
+                        height: 2rem;
+                        background: black;
+                        border-radius: 50%;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #pope{
+        width: 100%;
+        height: 70rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 50%;
+            height: 8rem;
+            display: inline-block;
+            align-items: center;
+            margin: 8rem 0 2rem 2rem;
+
+            h1{
+                font-size: 1.8rem;
+                margin: 0 0 2rem 0;
+                color: rgb(41, 41, 41);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 650;
+            }
+
+            h3{
+                font-weight: 380;
+                font-size: 1.25rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: black;
+            }
+
+        }
+
+
+        #mainContainer{
+            width: 93.5%;
+            height: 50rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+
+            .classDiv{
+                width: 100%;
+                height: 25rem;
+
+                .kid{
+                    width: 100%;
+                    height: 4.5rem;
+                    border-bottom: 0.1rem solid rgba(30, 30, 30, 0.342);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .p{
+                        width: 85%;
+                        height: 4rem;
+                    
+
+                        .cov{
+                            width: 100%;
+                            height: 4rem;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                        
+                    p{
+                        color: rgb(22, 22, 22);
+                        font-size: 0.92rem;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                    }
+
+                    span{
+                        color: #646464;
+                    }
+
+                }
+
+                    }
+
+                    .gtcover{
+                        width: 9%;
+                        height: 4rem;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+
+                        
+                    .gt{
+                        width: 44%;
+                        height: 1.8rem;
+                        background: black;
+                        border-radius: 55%;
+                        color: white;
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.1rem;
+                        font-weight: bold;
+                    }
+
+                }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+//MEDIA QUERY FOR MOBILE DEVICES
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    #pope{
+        width: 100%;
+        height: 80rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 80%;
+            height: 9.5rem;
+            display: inline-block;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+            margin: 8rem 0 3rem 2rem;
+
+
+            h1{
+                font-size: 1.9rem;
+                margin: 0 0 1.8rem 0;
+                color: #303030;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 700;
+            }
+
+            h3{
+                font-weight: 450;
+                font-size: 1.2rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #707070;
+            }
+
+        }
+
+
+        #mainContainer{
+            width: 86%;
+            height: 58.5rem;
+            margin: 0 auto;
+
+            .classDiv{
+                width: 100%;
+                height: 29rem;
+
+                .kid{
+                    width: 100%;
+                    height: 5.5rem;
+                    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.342);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+                    .p{
+                        width: 86%;
+                        height: 4rem;
+
+
+                        .cov{
+                            width: 100%;
+                            height: 100%;
+                        
+                        p{
+                            color: black;
+                            font-size: 0.8rem;
+                            font-family: 'Neue Montreal';
+                            font-weight: 400;
+    
+                        }
+    
+    
+                        span{
+                            color: #505050;
+                        }
+    
+                    }
+
+                }
+
+                
+                .gtcover{
+                    width: 12%;
+                    height: 4rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                
+
+                    .gt{
+                        width: 74%;
+                        height: 1.6em;
+                        background: black;
+                        border-radius: 50%;
+                        color: rgb(213, 212, 212);
+                        font-weight: bold;
+                        font-size: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                    }
+                    
+                }
+
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    #pope{
+        width: 100%;
+        height: 80rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 80%;
+            height: 10rem;
+            display: inline-block;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+            margin: 8rem 0 3rem 2rem;
+
+            h1{
+                font-size: 1.5rem;
+                margin: 0 0 2rem 0;
+                color: #303030;
+                font-family: 'Neue Montreal';
+                font-weight: bold;
+            }
+
+            h3{
+                font-weight: 450;
+                font-size: 1.2rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #707070;
+            }
+
+        }
+
+
+        #mainContainer{
+            width: 90%;
+            height: 58.5rem;
+            margin: 0 auto;
+
+            .classDiv{
+                width: 100%;
+                height: 29rem;
+
+                .kid{
+                    width: 100%;
+                    height: 5.5rem;
+                    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.342);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+                    .p{
+                        width: 86%;
+                        height: 4.5rem;
+
+                    
+                        .cov{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                        
+                        p{
+                            color: black;
+                            font-size: 0.8rem;
+                            font-family: 'Neue Montreal';
+                            font-weight: 400;
+
+                        }
+
+                        span{
+                            color: #505050;
+                        }
+
+                    }
+            }
+
+                    .gtcover{
+                        width: 10%;
+                        height: 4rem;
+
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                    
+                    .gt{
+                        width: 60%;
+                        height: 1.7rem;
+                        background: #101010;
+                        border-radius: 50%;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                    }
+
+                }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    #pope{
+        width: 100%;
+        height: 80rem;
+        background: white;
+        display: inline-block;
+        align-items: center;
+
+
+        #firDiv{
+            width: 92%;
+            height: 10rem;
+            display: inline-block;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+            margin: 8rem 0 3rem 2rem;
+
+            h1{
+                font-size: 1.8rem;
+                margin: 0 0 2rem 0;
+                color: #303030;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 700;
+            }
+
+            h3{
+                font-weight: 500;
+                font-size: 1.25rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #707070;
+            }
+
+        }
+
+
+        #mainContainer{
+            width: 90%;
+            height: 58.5rem;
+            margin: 0 auto;
+
+            .classDiv{
+                width: 100%;
+                height: 29rem;
+
+                .kid{
+                    width: 100%;
+                    height: 5.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.342);
+
+                    .p{
+                        width: 88%;
+                        height: 5rem;
+                        display: flex;
+                        align-items: center;
+                    
+                    .cov{
+                        width: 100%;
+                        height: 4.5rem;
+                        display: flex;
+                        align-items: center;
+                    
+                    p{
+                        color: black;
+                        font-size: 1rem;
+                        font-family: 'Neue Montreal';
+                        font-weight: 400;
+
+                    }
+
+                    span{
+                        color: rgb(190, 189, 189);
+                    }
+
+                }
+            }
+        }
+
+                    .gtcover{
+                        width: 10%;
+                        height: 4rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: hidden;
+                    
+                    .gt{
+                        width: 56%;
+                        height: 2rem;
+                        background: #101010;
+                        border-radius: 50%;
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                }
+                
+            }
+                }
+            }
+        }

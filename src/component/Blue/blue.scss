@@ -1,0 +1,504 @@
+@media only screen and (min-width:1201px){
+    #Earn{
+        width: 100%;
+        height: 49rem;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 95%;
+            height: 37rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .earnDuo{
+                width: 48.5%;
+                height: 35rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 42.5%;
+                height: 30rem;
+
+                h1{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.8rem;
+                    font-weight: 550;
+                    color: white;
+                    margin: 5rem 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                #blueText2{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                #btn{
+                    width: 31%;
+                    height: 3rem;
+                    background: #404040;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px #606060;
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                }
+
+                #btn:hover{
+                    background: #2f2f2f;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    #Earn{
+        width: 100%;
+        height: 50rem;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 95%;
+            height: 40rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .earnDuo{
+                width: 48%;
+                height: 27rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 42.5%;
+                height: 30rem;
+
+                h1{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.8rem;
+                    font-weight: 550;
+                    color: white;
+                    margin: 5rem 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                #blueText2{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                #btn{
+                    width: 36%;
+                    height: 3.2rem;
+                    background: #404040;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px #606060;
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                }
+
+                #btn:hover{
+                    background: #2f2f2f;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #Earn{
+        width: 100%;
+        height: 84rem;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 94.5%;
+            height: 65rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+            .earnDuo{
+                width: 100%;
+                height: 42rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 100%;
+                height: 18rem;
+
+                h1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.8rem;
+                    font-weight: 550;
+                    color: white;
+                    margin: 0 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.18rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+
+                #blueText2{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.18rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 4rem;
+                }
+
+                #btn{
+                    width: 24%;
+                    height: 3.2rem;
+                    background: #404040;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px #606060;
+                    transition: all 0.2s ease;
+                    cursor: pointer;
+                }
+
+                #btn:hover{
+                    background: #2f2f2f;
+                }
+            }
+        }
+    }
+}
+
+
+
+//MEDIA QUERY FOR MOBILE DEVICES
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    #Earn{
+        width: 100%;
+        height: 50rem;
+        background: rgb(64, 64, 192);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 86%;
+            height: 40rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .earnDuo{
+                width: 100%;
+                height: 17rem;
+                
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 100%;
+                height: 28rem;
+
+                h1{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    color: white;
+                    margin: 3.3rem 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 1.8rem;
+                }
+
+                #blueText2{
+                    font-family: 'Neue Montreal';
+                    font-size: 1rem;
+                    font-weight: 400;
+                    color: white;
+                    margin-bottom: 3.5rem;
+                }
+
+                #btn{
+                    width: 55%;
+                    height: 3rem;
+                    background: rgba(116, 116, 242, 0.662);
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px rgb(169, 169, 254);
+                    transition: all 0.2s ease;
+                    margin: 0 0 0 0.2rem;
+                }
+
+                #btn:hover{
+                    background: rgb(57, 57, 164);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    #Earn{
+        width: 100%;
+        height: 64rem;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 90%;
+            height: 54rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .earnDuo{
+                width: 100%;
+                height: 26rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 100%;
+                height: 24rem;
+
+                h1{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    color: white;
+                    margin: 3.3rem 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 1.8rem;
+                }
+
+                #blueText2{
+                    font-family: 'Neue Montreal';
+                    font-size: 1rem;
+                    font-weight: 400;
+                    color: white;
+                    margin-bottom: 3.5rem;
+                }
+
+                #btn{
+                    width: 38%;
+                    height: 3rem;
+                    background: #404040;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px #606060;
+                    transition: all 0.2s ease;
+                    margin: 0 0 0 0.2rem;
+                }
+
+                #btn:hover{
+                    background: #2f2f2f;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    #Earn{
+        width: 100%;
+        height: 74rem;
+        background: #202020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #earnMid{
+            width: 92%;
+            height: 64rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .earnDuo{
+                width: 100%;
+                height: 32rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .earnDuo:nth-child(2){
+                width: 100%;
+                height: 24rem;
+
+                h1{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    color: white;
+                    margin: 3.3rem 0 1.5rem 0;
+                }
+
+                #blueText1{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.15rem;
+                    font-weight: 500;
+                    color: white;
+                    margin-bottom: 1.8rem;
+                }
+
+                #blueText2{
+                    font-family: 'Neue Montreal';
+                    font-size: 1.15rem;
+                    font-weight: 400;
+                    color: white;
+                    margin-bottom: 3.5rem;
+                }
+
+                #btn{
+                    width: 30%;
+                    height: 3.2rem;
+                    background: #404040;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 2rem;
+                    border: none;
+                    outline: none;
+                    box-shadow: 3px 3px 20px 6px #606060;
+                    transition: all 0.2s ease;
+                    margin: 0 0 0 0.2rem;
+                }
+
+                #btn:hover{
+                    background: #2f2f2f;
+                }
+            }
+        }
+    }
+}

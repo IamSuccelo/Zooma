@@ -1,0 +1,781 @@
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    #play{
+        width: 100%;
+        position: relative;
+        height: 43rem;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #overlay{
+            width: 100%;
+            height: 43rem;
+            background: #0000005e;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        #overtext{
+            width: 85%;
+            height: 26rem;
+            position: absolute;
+            top: 16rem;
+            left: 1.5rem;
+
+            h1{
+                font-size: 2.1rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 750;
+            }
+
+            p{  
+                font-size: 1rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                margin: 1rem 0 0 0;
+            }
+
+            button{
+                width: 50%;
+                height: 3rem;
+                background: #101010;
+                border: none;
+                border-radius: 30px;
+                margin: 2.15rem  0 0 0;
+                font-size: 1.05rem;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 600;
+                transition: all 0.2s ease;
+            }
+
+            button:hover{
+                background: #202020;
+            }
+        }
+        }
+
+    }
+
+
+    #bolt-container{
+        width: 100%;
+        height: 20rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        #mid-bolt{
+            width: 100%;
+            height: 20rem;
+            display: inline-block;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 1.8rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 650;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 470;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 97%;
+                height: 5rem;
+                margin-top: 3rem;
+                align-items: center;
+                overflow: auto;
+
+
+                #btn-contain{
+                    width: 175%;
+                    height: 5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:599px){
+    #play{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 48rem;
+       
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+            #overlay{
+                width: 100%;
+                height: 48rem;
+                background: #00000070;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+            #overtext{
+                width: 90%;
+                margin: 19rem 0 0 4%;
+                height: 17rem;
+                position: relative;
+                top:0;
+                left: 0;
+
+                h1{
+                    font-size: 2.1rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 800;
+                }
+
+
+                p{
+                    font-size: 1.15rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    margin: 1rem 0 0 0;
+                }
+
+                button{
+                    width: 40%;
+                    height: 3.2rem;
+                    background: #101010;
+                    border: none;
+                    border-radius: 30px;
+                    margin: 2.15rem  0 0 0;
+                    font-size: 1.05rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                }
+
+                button:hover{
+                    background: #202020;
+                }
+            }
+        }
+
+    }
+
+    #bolt-container{
+        width: 100%;
+        height: 30rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        #mid-bolt{
+            width: 90%;
+            height: 20rem;
+            display: inline-block;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 1.8rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 650;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 470;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 97%;
+                height: 5rem;
+                margin-top: 3rem;
+                align-items: center;
+                overflow: auto;
+
+
+                #btn-contain{
+                    width: 175%;
+                    height: 5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    #play{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 42.5rem;
+       
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+            #overlay{
+                width: 100%;
+                height: 42.5rem;
+                background: #00000082;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+            #overtext{
+                width: 90%;
+                margin: 21rem 0 0 4%;
+                height: 17rem;
+                position: relative;
+                top:0;
+                left: 0;
+
+                h1{
+                    font-size: 2.2rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 800;
+                }
+
+
+                p{
+                    font-size: 1.2rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    margin: 1rem 0 0 0;
+                }
+
+                button{
+                    width: 27%;
+                    height: 3.4rem;
+                    background: #222;
+                    border: none;
+                    border-radius: 25px;
+                    margin: 2.15rem  0 0 0;
+                    font-size: 1.08rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                }
+
+                button:hover{
+                    background: #333;
+                }
+            }
+        }
+
+    }
+
+    #bolt-container{
+        width: 100%;
+        height: 24rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        #mid-bolt{
+            width: 100%;
+            height: 16rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 1.8rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 650;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 470;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 97%;
+                height: 5rem;
+                align-items: center;
+                overflow: auto;
+
+
+                #btn-contain{
+                    width: 165%;
+                    height: 5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    #play{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 42.5rem;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #overlay{
+            width: 100%;
+            height: 42.5rem;
+            background: #0000007f;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            #overtext{
+                width: 90%;
+                height: 16.5rem;
+                position: absolute;
+                top: 22rem;
+                left: 1.8rem;
+
+                h1{
+                    font-size: 3.3rem;
+                    font-family: 'inter', sans-serif;
+                    font-weight: 600;
+                }
+
+                p{
+                    font-size: 1.25rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    margin-top: 0.2rem;
+                    overflow: auto;
+                }
+
+                button{
+                    width: 19.5%;
+                    height: 3.12rem;
+                    background: rgb(91, 183, 119);
+                    border: none;
+                    border-radius: 30px;
+                    margin: 1.3rem  0 0 0;
+                    font-size: 1.1rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                }
+
+                button:hover{
+                    background: rgb(77, 122, 77);
+                }
+            }
+        }
+
+
+    }
+
+  
+
+    #bolt-container{
+        width: 100%;
+        height: 30rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        #mid-bolt{
+            width: 95%;
+            height: 20rem;
+            display: inline-block;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 2.55rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 480;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 100%;
+                height: 7.6rem;
+                margin-top: 3rem;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+
+
+                #btn-contain{
+                    width: 96%;
+                    height: 6rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                }            
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1200px){
+    #play{
+        width: 100%;
+        position: relative;
+        height: 42.5rem;
+        top: 0;
+
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #overlay{
+            width: 100%;
+            height: 42.5rem;
+            background: #0000007f;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            #overtext{
+                width: 70%;
+                height: 18.5rem;
+                position: absolute;
+                top: 13rem;
+                left: 1.8rem;
+
+                h1{
+                    font-size: 3.5rem;
+                    font-family: 'inter', sans-serif;
+                    font-weight: 600;
+                }
+
+                p{
+                    font-size: 1.25rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    margin-top: 1rem;
+                    overflow: auto;
+                }
+
+                button{
+                    width: 19.5%;
+                    height: 3.12rem;
+                    background: rgb(91, 183, 119);
+                    border: none;
+                    border-radius: 30px;
+                    margin: 1.85rem  0 0 0;
+                    font-size: 1.1rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                }
+
+                button:hover{
+                    background: rgb(77, 122, 77);
+                }
+            }
+        }
+
+    }
+
+
+    #bolt-container{
+        width: 100%;
+        height: 30rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        #mid-bolt{
+            width: 85%;
+            height: 20rem;
+            display: inline-block;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 2.55rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 480;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 100%;
+                height: 7.6rem;
+                margin-top: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                #btn-contain{
+                    width: 86%;
+                    height: 6rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }            
+            }
+        }
+    }
+    
+}
+
+@media only screen and (min-width:1201px){
+    #play{
+        width: 100%;
+        position: relative;
+        height: 41rem;
+        top: 0;
+
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #overlay{
+            width: 100%;
+            height: 41rem;
+            background: #00000087;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            #overtext{
+                width: 60%;
+                height: 16.5rem;
+                position: absolute;
+                top: 12.6rem;
+                left: 2rem;
+
+                h1{
+                    font-size: 3.3rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+
+                p{
+                    font-size: 1.25rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    margin-top: 1em;
+                }
+
+                button{
+                    width: 22%;
+                    height: 3.2rem;
+                    background: #101010;
+                    border: none;
+                    border-radius: 30px;
+                    margin: 2.15rem  0 0 0;
+                    font-size: 1.1rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 600;
+                    transition: all 0.2s ease;
+                }
+
+                button:hover{
+                    background: #202020;
+                }
+            }
+        }
+    }
+
+    #bolt-container{
+        width: 100%;
+        height: 24rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        #mid-bolt{
+            width: 65%;
+            height: 20rem;
+            display: inline-block;
+
+            #avail{
+                width: 100%;
+                height: 8.5rem;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+
+                .bolt-text{
+                    font-size: 2.55rem;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 700;
+                    color: #202020;
+                    text-align: center;
+                    margin-top: 1.5rem;
+                }
+                
+                .bolt-paragragh{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 1.1rem;
+                    color: rgba(0, 0, 0, 0.642);
+                    text-align: center;
+                    font-weight: 480;
+                    margin-top: 1.6rem;
+                }
+
+            }
+
+            #btn-container-cover{
+                width: 100%;
+                height: 7.6rem;
+                margin-top: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                #btn-contain{
+                    width: 98%;
+                    height: 6rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }            
+            }
+        }
+    }
+}
+
+
